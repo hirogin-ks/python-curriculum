@@ -12,7 +12,7 @@
 
 ---
 
-## 導入：卒業制作へようこそ
+## 24.1 導入：卒業制作へようこそ
 
 就職活動中にエクセルで求人情報を手動でコピーしている人を想像してください。毎日サイトを開いて、会社名・職種・勤務地を1件ずつコピーしていくと、100件で数時間かかります。
 
@@ -45,7 +45,7 @@
 
 ---
 
-## ハンズオン：対象サイトを確認しよう
+## 24.2 ハンズオン：対象サイトを確認しよう
 
 今回のターゲットは `https://realpython.github.io/fake-jobs/` です。ブラウザで開いて「検証」で HTML 構造を確認してください。
 
@@ -194,7 +194,7 @@ def insert_job(conn: sqlite3.Connection, job: dict) -> bool:
 
 ## 練習問題
 
-### 問題1：全求人データを取得して表示する
+### 24.3 問題1：全求人データを取得して表示する
 
 `https://realpython.github.io/fake-jobs/` から全求人を取得し、以下の形式で表示してください。
 
@@ -224,7 +224,7 @@ def insert_job(conn: sqlite3.Connection, job: dict) -> bool:
 
 ---
 
-### 問題2：取得した求人データを CSV に保存する
+### 24.4 問題2：取得した求人データを CSV に保存する
 
 問題1で取得したデータを `output/jobs.csv` に保存してください。
 
@@ -243,7 +243,7 @@ def insert_job(conn: sqlite3.Connection, job: dict) -> bool:
 
 ---
 
-### 問題3：エラーハンドリングと loguru ログを追加する
+### 24.5 問題3：エラーハンドリングと loguru ログを追加する
 
 問題2のコードに以下を追加してください。
 
@@ -274,7 +274,7 @@ def insert_job(conn: sqlite3.Connection, job: dict) -> bool:
 
 ---
 
-### 問題4：全機能を統合した JobScraper クラスを作る
+### 24.6 問題4：全機能を統合した JobScraper クラスを作る
 
 以下の設計で `scraper.py` と `main.py` を実装してください。
 
