@@ -37,3 +37,13 @@ Pythonスクレイピング入門のカリキュラムです。
 ```bash
 pip install -r requirements.txt
 ```
+
+## 作業用ファイル
+
+実際に書く Python ファイルは `python/lessonXX/` に置いています。
+問題文は `lessons/lesson_XX/exercise.md` を見て、対応する `.py` を `python/` 側で編集してください。
+
+## 回答用ファイル
+
+- [Python ワークスペース案内](python/create-python-workspace.md)
+- [Python ワークスペース zip をダウンロード](python/python-workspace.zip)
