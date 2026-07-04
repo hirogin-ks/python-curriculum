@@ -18,9 +18,9 @@ lessons/
 
 python/
   lesson02/
-    01_env_check.py
-    02_hello.py
-    03_check_modules.py
+    01.py
+    02.py
+    03.py
 ```
 
 ## ダウンロード
