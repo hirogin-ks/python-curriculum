@@ -411,6 +411,8 @@ for row in rows:
 
 ### 問題1：基本的なCRUD操作
 
+`python/lesson11/01_basic_crud.py` に回答を書いてください。
+
 以下の操作を順番に実行してください。
 
 1. `products` テーブルを作成（id, name, price, stock）
@@ -435,6 +437,8 @@ for row in rows:
 ---
 
 ### 問題2：重複チェック付きで保存
+
+`python/lesson11/02_save_with_duplicate_check.py` に回答を書いてください。
 
 以下のデータを重複しないように保存してください。
 
@@ -471,6 +475,8 @@ except sqlite3.IntegrityError:
 
 ### 問題3：条件検索
 
+`python/lesson11/03_condition_search.py` に回答を書いてください。
+
 問題2で作成したデータベースから、以下の条件で検索してください。
 
 1. 価格が3000円以上の本
@@ -498,6 +504,8 @@ SELECT AVG(price) FROM books
 ---
 
 ### 問題4：スクレイピングデータをデータベースに保存
+
+`python/lesson11/04_save_scraping_data_db.py` に回答を書いてください。
 
 Books to Scrape から取得した以下のデータをSQLiteに保存してください。
 
@@ -527,6 +535,8 @@ books = [
 ---
 
 ### 問題5：データベースの内容をCSV出力
+
+`python/lesson11/05_export_db_to_csv.py` に回答を書いてください。
 
 問題4で作成したデータベースから、すべてのデータを取得してCSVファイルに出力してください。
 
