@@ -351,6 +351,8 @@ print(driver.title)
 
 ### 問題1：ログインフォームの操作
 
+`python/lesson15/01_login_form_operation.py` に回答を書いてください。
+
 https://quotes.toscrape.com/login にアクセスして、ログインしてください。
 
 ```python
@@ -381,6 +383,8 @@ https://quotes.toscrape.com/login にアクセスして、ログインしてく�
 
 ### 問題2：検索フォームの操作
 
+`python/lesson15/02_search_form_operation.py` に回答を書いてください。
+
 https://quotes.toscrape.com/ にアクセスして、タグ検索を行ってください。
 
 ```python
@@ -406,6 +410,8 @@ https://quotes.toscrape.com/ にアクセスして、タグ検索を行ってく
 
 ### 問題3：待機処理を使った操作
 
+`python/lesson15/03_waiting_operations.py` に回答を書いてください。
+
 https://quotes.toscrape.com/scroll にアクセスして、スクロールで読み込まれる名言をすべて取得してください。
 
 ```python
@@ -430,6 +436,8 @@ https://quotes.toscrape.com/scroll にアクセスして、スクロールで読
 ---
 
 ### 問題4：フォーム送信とスクリーンショット
+
+`python/lesson15/04_form_submit_screenshot.py` に回答を書いてください。
 
 https://quotes.toscrape.com/search.aspx にアクセスして、以下を行ってください。
 
@@ -457,6 +465,8 @@ https://quotes.toscrape.com/search.aspx にアクセスして、以下を行っ�
 ---
 
 ### 問題5：動的サイトのスクレイピング
+
+`python/lesson15/05_dynamic_site_scrape.py` に回答を書いてください。
 
 https://quotes.toscrape.com/js/ にアクセスして、JavaScriptで生成される名言を取得してください。
 
