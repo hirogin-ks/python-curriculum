@@ -133,6 +133,8 @@ response = requests.get("https://httpbin.org/get", headers=headers)
 
 ### 問題1：Webページを取得
 
+`python/lesson05/01_fetch_webpage.py` に回答を書いてください。
+
 https://httpbin.org/get にアクセスして結果を表示してください。
 
 ```python
@@ -150,6 +152,8 @@ import requests
 ---
 
 ### 問題2：パラメータ付きリクエスト
+
+`python/lesson05/02_request_with_params.py` に回答を書いてください。
 
 検索パラメータを送ってみましょう。
 
@@ -172,6 +176,8 @@ params = {"name": "太郎", "age": 25}
 ---
 
 ### 問題3：エラー処理付きで取得
+
+`python/lesson05/03_error_handling_fetch.py` に回答を書いてください。
 
 存在しないページにアクセスしたときにエラーメッセージを出す関数を作ってください。
 
@@ -201,6 +207,8 @@ print(result)  # None
 ---
 
 ### 問題4：タイムアウトの設定
+
+`python/lesson05/04_timeout_setting.py` に回答を書いてください。
 
 サーバーの応答が遅い場合に備えて、タイムアウトを設定してみましょう。
 
