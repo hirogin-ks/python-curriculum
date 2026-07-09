@@ -301,7 +301,7 @@ exit()
 
 ### 問題2：ファイルを作って実行する
 
-テキストエディタで `lessons/lesson_02/hello.py` というファイルを作成してください。
+テキストエディタで `lessons/lesson_02/02_hello.py` というファイルを作成してください。
 
 以下の要件を満たすPythonスクリプトを書いてください。
 
@@ -318,12 +318,12 @@ exit()
 保存したら、ターミナルで以下を実行して動作確認してください。
 
 ```bash
-python lessons/lesson_02/hello.py
+python lessons/lesson_02/02_hello.py
 ```
 
 ### 問題3：ライブラリが正しくインストールされたか確認する
 
-`lessons/lesson_02/check.py` というファイルを作成してください。
+`lessons/lesson_02/03_check_modules.py` というファイルを作成してください。
 
 以下の要件を満たすPythonスクリプトを書いてください。
 
@@ -341,7 +341,7 @@ python lessons/lesson_02/hello.py
 実行します。
 
 ```bash
-python lessons/lesson_02/check.py
+python lessons/lesson_02/03_check_modules.py
 ```
 
 すべて「OK」と表示されれば成功です。「NG」が表示された場合は、`pip install -r requirements.txt` を再実行してください。
@@ -444,7 +444,7 @@ Google翻訳やDeepLにエラーメッセージを貼り付けて翻訳してみ
 - [ ] 仮想環境を作成できた
 - [ ] 仮想環境を有効にすると `(.venv)` が表示された
 - [ ] ライブラリをインストールできた
-- [ ] `check.py` ですべて「OK」と表示された
+- [ ] `03_check_modules.py` ですべて「OK」と表示された
 
 ---
 
