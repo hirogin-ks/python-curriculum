@@ -325,6 +325,8 @@ else:
 
 ### 問題1：静的サイトと動的サイトを比較
 
+`python/lesson13/01_static_dynamic_compare.py` に回答を書いてください。
+
 以下の2つのサイトでデータが取得できるか確認してください。
 
 ```python
@@ -351,6 +353,8 @@ else:
 ---
 
 ### 問題2：HTMLの中身を確認
+
+`python/lesson13/02_inspect_html.py` に回答を書いてください。
 
 問題1の動的サイトで取得したHTMLを詳しく見て、なぜデータが取得できないか説明してください。
 
@@ -380,6 +384,8 @@ print(f"scriptタグの数: {len(scripts)}")
 
 ### 問題3：ブラウザで確認
 
+`python/lesson13/03_browser_check.py` に回答を書いてください。
+
 以下のサイトをブラウザで開き、デベロッパーツールで確認してください。
 
 1. https://quotes.toscrape.com/js/
@@ -404,6 +410,8 @@ print(f"scriptタグの数: {len(scripts)}")
 ---
 
 ### 問題4：ページのソースを表示
+
+`python/lesson13/04_view_page_source.py` に回答を書いてください。
 
 以下のサイトでページのソースを表示し、違いを確認してください。
 
@@ -431,6 +439,8 @@ print(f"scriptタグの数: {len(scripts)}")
 ---
 
 ### 問題5：自動判定プログラム
+
+`python/lesson13/05_auto_detect.py` に回答を書いてください。
 
 URLを入力すると、静的サイトか動的サイトか自動判定するプログラムを作ってください。
 
