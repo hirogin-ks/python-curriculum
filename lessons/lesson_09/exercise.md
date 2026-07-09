@@ -274,6 +274,8 @@ print(date2.strftime("%Y-%m-%d"))  # 2024-01-15
 
 ### 問題1：基本的な文字列クリーニング
 
+`python/lesson09/01_basic_text_cleaning.py` に回答を書いてください。
+
 以下のデータから余分な空白や文字を削除してください。
 
 ```python
@@ -295,6 +297,8 @@ texts = [
 ---
 
 ### 問題2：正規表現で数字を抽出
+
+`python/lesson09/02_extract_numbers_with_regex.py` に回答を書いてください。
 
 以下のテキストから数字だけを抽出してください。
 
@@ -318,6 +322,8 @@ texts = [
 ---
 
 ### 問題3：価格データを数値に変換
+
+`python/lesson09/03_convert_price_to_number.py` に回答を書いてください。
 
 以下の価格データを数値に変換してください。
 
@@ -346,6 +352,8 @@ prices = [
 
 ### 問題4：日付フォーマットの統一
 
+`python/lesson09/04_unify_date_format.py` に回答を書いてください。
+
 以下の様々な形式の日付を、すべて `"YYYY-MM-DD"` 形式に変換してください。
 
 ```python
@@ -369,6 +377,8 @@ dates = [
 ---
 
 ### 問題5：スクレイピングデータの総合整形
+
+`python/lesson09/05_total_data_cleaning.py` に回答を書いてください。
 
 Books to Scrape から取得した以下のような「汚い」データを整形してください。
 
