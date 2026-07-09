@@ -225,7 +225,13 @@ for quote in all_quotes:
 
 ## 練習問題
 
+この回では、`config.py` にタグ一覧や待機時間などの設定をまとめ、`main.py` からそれを読み込んで実行する形を想定しています。  
+`config.py` は「変更しやすい値を集める場所」、`main.py` は「実行の入口」です。  
+まずは問題1〜5で実装した内容をベースにし、余裕があればこの2ファイルに分けてみてください。
+
 ### 問題1：特定のタグから全ページ取得
+
+`python/lesson16/01_tag_all_pages.py` に回答を書いてください。
 
 "love" タグの名言を、全ページから取得してください。
 
@@ -306,6 +312,8 @@ if __name__ == "__main__":
 
 ### 問題2：複数のタグから取得
 
+`python/lesson16/02_multiple_tags.py` に回答を書いてください。
+
 複数のタグ（"love", "life", "inspiration"）から名言を取得してください。
 
 ```python
@@ -350,6 +358,8 @@ if __name__ == "__main__":
 ---
 
 ### 問題3：重複を除去
+
+`python/lesson16/03_remove_duplicates.py` に回答を書いてください。
 
 問題2で取得したデータには、重複があるかもしれません。重複を除去してください。
 
@@ -398,6 +408,8 @@ if __name__ == "__main__":
 ---
 
 ### 問題4：タグ別の集計
+
+`python/lesson16/04_aggregate_by_tag.py` に回答を書いてください。
 
 取得した名言を、タグ別に集計してください。
 
@@ -450,6 +462,8 @@ sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)
 ---
 
 ### 問題5：完全なスクレイピングシステム
+
+`python/lesson16/05_complete_scraper.py` に回答を書いてください。
 
 以下の機能を持つ完全なシステムを作成してください。
 
