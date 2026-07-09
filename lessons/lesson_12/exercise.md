@@ -148,6 +148,22 @@ __name__ の値: hands_on
 
 ---
 
+## ファイルの役割
+
+`lesson_12` には練習問題ファイルのほかに、補助ファイルがあります。役割は次の通りです。
+
+| ファイル | 使う場面 |
+| -------- | -------- |
+| `hands_on.py` | ハンズオンで動かしたコードを試すときに使う。本文の説明に出てくる実行例の元になるファイルです。 |
+| `01_multi_page_scrape.py` 〜 `05_complete_pipeline.py` | 練習問題の回答を書くファイルです。各問題文の先頭に、対応するファイル名を明記しています。 |
+| `config.py` | `BASE_URL` や `NUM_PAGES` など、設定値をまとめるときに使います。本文の「設定の外部化」で登場します。 |
+| `main.py` | 設定を読み込んで実行をまとめる入口です。`config.py` と組み合わせて使います。 |
+| `test_scraper.py` | `scraper` の関数をテストするときに使います。本文の「ユニットテスト」で登場します。 |
+
+補助ファイルは、最初から全部を使いこなす必要はありません。まずは `hands_on.py` で動きを確認し、その後に `01` 〜 `05` の練習問題を進めてください。`config.py`、`main.py`、`test_scraper.py` は、本文の後半で「どう分けると読みやすいか」を学ぶためのファイルです。
+
+---
+
 ## 解説
 
 ### パイプラインとは
@@ -304,6 +320,8 @@ def fetch_page_with_retry(url, max_retries=3):
 
 ### 問題1：複数ページからデータ取得
 
+`python/lesson12/01_multi_page_scrape.py` に回答を書いてください。
+
 Books to Scrape の最初の5ページから書籍情報を取得して、CSVに保存してください。
 
 ```python
@@ -353,6 +371,8 @@ print(f"合計 {len(all_books)} 冊を取得しました")
 ---
 
 ### 問題2：データベースへの保存
+
+`python/lesson12/02_database_save.py` に回答を書いてください。
 
 問題1で取得したデータをSQLiteデータベースに保存してください。
 
@@ -415,6 +435,8 @@ query_database():
 
 ### 問題3：評価別の集計
 
+`python/lesson12/03_rating_aggregate.py` に回答を書いてください。
+
 データベースから評価（rating）別に書籍数を集計して表示してください。
 
 ```python
@@ -459,6 +481,8 @@ aggregate_by_rating("books.db")
 ---
 
 ### 問題4：進捗バーの実装
+
+`python/lesson12/04_progress_bar.py` に回答を書いてください。
 
 `tqdm` ライブラリを使って、データ取得の進捗をバーで表示してください。
 
@@ -513,6 +537,8 @@ for page in tqdm(range(1, 11), desc="取得中", unit="ページ"):
 ---
 
 ### 問題5：完全なパイプラインの構築
+
+`python/lesson12/05_complete_pipeline.py` に回答を書いてください。
 
 以下の機能を持つ完全なスクレイピングシステムを作成してください。
 
