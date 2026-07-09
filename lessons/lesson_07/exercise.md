@@ -230,6 +230,8 @@ print(clean_text)  # "こんにちは世界"
 
 ### 問題1：CSSセレクタで取得
 
+`python/lesson07/01_css_selector_fetch.py` に回答を書いてください。
+
 以下のHTMLから、CSSセレクタを使って要素を取得してください。
 
 ```python
@@ -276,6 +278,8 @@ select_one() は1つだけ返す
 ---
 
 ### 問題2：テーブルを辞書のリストに変換
+
+`python/lesson07/02_table_to_dict_list.py` に回答を書いてください。
 
 以下のHTMLテーブルから、商品情報を辞書のリストとして取得してください。
 
@@ -360,6 +364,8 @@ for th in soup.select("th"):
 
 ### 問題3：テキストの整形
 
+`python/lesson07/03_text_formatting.py` に回答を書いてください。
+
 以下のHTMLから商品情報を取得し、テキストを整形してください。
 
 ```python
@@ -402,6 +408,8 @@ text = text.replace("¥", "")      # "150"
 ---
 
 ### 問題4：複雑な構造の解析
+
+`python/lesson07/04_complex_structure_parse.py` に回答を書いてください。
 
 以下のHTMLから、各記事のタイトル、著者、日付を取得してください。
 
@@ -458,6 +466,8 @@ soup = BeautifulSoup(html, "html.parser")
 ---
 
 ### 問題5：属性で絞り込み
+
+`python/lesson07/05_attribute_filtering.py` に回答を書いてください。
 
 以下のHTMLから、外部リンク（http:// または https:// で始まるリンク）のみを取得してください。
 
