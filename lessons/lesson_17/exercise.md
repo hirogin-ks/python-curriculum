@@ -238,6 +238,8 @@ def fetch(url):
 
 ### 問題1：try/except でエラーをキャッチする
 
+`python/lesson17/01_try_except_error_handling.py` に回答を書いてください。
+
 以下の関数に `try/except` を追加して、エラーが起きても処理が止まらないようにしてください。
 
 ```python
@@ -280,6 +282,8 @@ for url in urls:
 
 ### 問題2：手動でリトライを実装する
 
+`python/lesson17/02_manual_retry.py` に回答を書いてください。
+
 以下の条件を満たすリトライ付き関数を作成してください。
 
 ```
@@ -305,6 +309,8 @@ for url in urls:
 
 ### 問題3：tenacity を使ってリトライを実装する
 
+`python/lesson17/03_tenacity_retry.py` に回答を書いてください。
+
 問題2の関数を `tenacity` を使って書き直してください。
 
 さらに、`retry_if_exception_type` を使い、404エラー（`HTTPError`）のときはリトライしないようにしてください。
@@ -322,6 +328,8 @@ for url in urls:
 ---
 
 ### 問題4：複数URLを処理してエラーログを記録する
+
+`python/lesson17/04_logging_requests.py` に回答を書いてください。
 
 下記のURLリストを順にフェッチし、成功・失敗を `logging` で記録するプログラムを作成してください。
 
