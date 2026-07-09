@@ -260,7 +260,7 @@ urls = [
 
 ### 問題2：parser.py と test_parser.py を作る
 
-以下の関数を `lessons/lesson_23/parser.py` に実装し、`lessons/lesson_23/test_parser.py` にテストを書いてください。
+以下の関数を `python/lesson23/parser.py` に実装し、`python/lesson23/test_parser.py` にテストを書いてください。
 
 #### 実装する関数
 
@@ -313,7 +313,7 @@ parse_quote:
 問題2で作成したテストを実行してください。
 
 ```bash
-cd lessons/lesson_23
+cd python/lesson23
 pytest test_parser.py -v
 ```
 
