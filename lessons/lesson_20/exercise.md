@@ -285,6 +285,8 @@ class AuthScraper:
 
 ### 問題1：基本的なスクレイパークラスを作る
 
+`python/lesson20/01_auth_scraper_basic.py` に回答を書いてください。
+
 以下の仕様を満たす `AuthScraper` クラスを作成してください。
 
 ```
@@ -323,6 +325,8 @@ scraper.session.close()
 
 ### 問題2：with 構文に対応させる
 
+`python/lesson20/02_auth_scraper_context.py` に回答を書いてください。
+
 問題1のクラスに `__enter__` と `__exit__` を追加して、`with` 構文で使えるようにしてください。
 
 ```python
@@ -355,6 +359,8 @@ print("セッションが正常に閉じられました")
 ---
 
 ### 問題3：複数ページ取得とエラー処理を追加する
+
+`python/lesson20/03_auth_scraper_dataframe.py` に回答を書いてください。
 
 以下の機能を追加してください。
 
@@ -391,6 +397,8 @@ print("セッションが正常に閉じられました")
 ---
 
 ### 問題4：並列処理でページ取得を高速化する
+
+`python/lesson20/04_auth_scraper_parallel.py` に回答を書いてください。
 
 問題3の `get_all_quotes` メソッドを変更して、`ThreadPoolExecutor` を使ってページを並列取得するようにしてください。
 
