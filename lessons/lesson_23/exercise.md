@@ -261,6 +261,7 @@ urls = [
 ### 問題2：parser.py と test_parser.py を作る
 
 以下の関数を `python/lesson23/parser.py` に実装し、`python/lesson23/test_parser.py` にテストを書いてください。
+`test_` で始まるファイルは `pytest` が自動で見つけるテスト用ファイルです。
 
 #### 実装する関数
 
