@@ -245,6 +245,8 @@ driver = webdriver.Chrome(options=options)
 
 ### 問題1：基本的なページの開き方
 
+`python/lesson14/01_basic_page_open.py` に回答を書いてください。
+
 Selenium を使って Google のトップページを開き、タイトルを取得してください。
 
 ```python
@@ -284,6 +286,8 @@ finally:
 ---
 
 ### 問題2：動的サイトからデータ取得
+
+`python/lesson14/02_dynamic_data_fetch.py` に回答を書いてください。
 
 https://quotes.toscrape.com/js/ から、すべての名言を取得してください。
 
@@ -341,6 +345,8 @@ HTML構造:
 
 ### 問題3：待機処理の実装
 
+`python/lesson14/03_waiting_process.py` に回答を書いてください。
+
 WebDriverWait を使って、より確実に要素を取得してください。
 
 ```python
@@ -393,6 +399,8 @@ element = wait.until(
 ---
 
 ### 問題4：複数ページの取得
+
+`python/lesson14/04_multi_page_fetch.py` に回答を書いてください。
 
 https://quotes.toscrape.com/js/ には「Next」ボタンがあります。「Next」ボタンをクリックして、複数ページから名言を取得してください。
 
@@ -472,6 +480,8 @@ except NoSuchElementException:
 ---
 
 ### 問題5：データの整形と保存
+
+`python/lesson14/05_format_save_data.py` に回答を書いてください。
 
 取得した名言を辞書のリストにまとめて、CSVファイルに保存してください。
 
