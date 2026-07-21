@@ -47,3 +47,6 @@ pip install -r requirements.txt
 
 - [Python ワークスペース案内](python/create-python-workspace.md)
 - [Python ワークスペース zip をダウンロード](python/python-workspace.zip)
+
+このリポジトリは、受講者が `python-workspace.zip` をダウンロードして手元で編集する前提で使います。
+教材本文は `lessons/`、作業ファイルは `python/` を見て進めてください。

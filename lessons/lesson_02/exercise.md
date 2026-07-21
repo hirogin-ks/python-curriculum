@@ -301,9 +301,7 @@ exit()
 
 ### 問題2：ファイルを作って実行する
 
-テキストエディタで `lessons/lesson_02/02_hello.py` というファイルを作成してください。
-
-以下の要件を満たすPythonスクリプトを書いてください。
+テキストエディタで `lessons/lesson_02/02_hello.py` というファイルに以下の要件を満たすPythonスクリプトを書いてください。
 
 **要件：**
 - 「スクレイピングコースへようこそ」というメッセージを表示する
@@ -323,9 +321,7 @@ python lessons/lesson_02/02_hello.py
 
 ### 問題3：ライブラリが正しくインストールされたか確認する
 
-`lessons/lesson_02/03_check_modules.py` というファイルを作成してください。
-
-以下の要件を満たすPythonスクリプトを書いてください。
+`lessons/lesson_02/03_check_modules.py` というファイルに以下の要件を満たすPythonスクリプトを書いてください。
 
 **要件：**
 - `["requests", "bs4", "selenium", "pandas"]` というライブラリのリストをループで確認

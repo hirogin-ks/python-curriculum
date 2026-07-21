@@ -28,7 +28,7 @@ python/
 - [python ワークスペースの zip をダウンロード](./python-workspace.zip)
 
 GitHub 上ではこのリンクから zip を取得できます。
-ローカルで使う場合は、このリポジトリをそのまま開いて `python/lessonXX/` を編集してください。
+ダウンロードした zip を展開したら、このリポジトリ内の `python/lessonXX/` を編集してください。
 
 ## 仮想環境の作り方
 
