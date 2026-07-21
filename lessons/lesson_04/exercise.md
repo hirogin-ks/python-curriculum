@@ -149,6 +149,8 @@ except ZeroDivisionError:
 
 ### 問題1：関数を作る
 
+`python/lesson04/01_make_functions.py` に回答を書いてください。
+
 2つの数の平均を返す関数を作ってください。
 
 ```python
@@ -171,6 +173,8 @@ print(average(3, 7))    # 5.0
 
 ### 問題2：リストの最大値を返す関数
 
+`python/lesson04/02_max_value.py` に回答を書いてください。
+
 リストの中で一番大きい数を返す関数を作ってください。組み込み関数の `max()` は使わずに自分で書いてください。
 
 ```python
@@ -192,6 +196,8 @@ print(find_max([3, 1, 4, 1, 5, 9, 2, 6]))  # 9
 ---
 
 ### 問題3：ファイル操作
+
+`python/lesson04/03_file_operations.py` に回答を書いてください。
 
 以下を順番に実行してください。
 
@@ -220,6 +226,8 @@ print(find_max([3, 1, 4, 1, 5, 9, 2, 6]))  # 9
 ---
 
 ### 問題4：安全な割り算
+
+`python/lesson04/04_safe_division.py` に回答を書いてください。
 
 0で割ってもエラーにならない関数を作ってください。
 
@@ -252,6 +260,8 @@ print(safe_divide(10, 0))   # None
 ---
 
 ### 問題5：商品データを扱う関数
+
+`python/lesson04/05_product_data_functions.py` に回答を書いてください。
 
 商品データを辞書で作成・表示する関数を作ってください。
 

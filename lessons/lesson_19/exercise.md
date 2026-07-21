@@ -241,6 +241,8 @@ User-Agent はブラウザの種類を示す情報で、設定することでブ
 
 ### 問題1：Session の Cookie 管理を確認する
 
+`python/lesson19/01_session_cookie_check.py` に回答を書いてください。
+
 以下のコードを完成させて、`Session` が Cookie を自動管理していることを確認してください。
 
 ```python
@@ -277,6 +279,8 @@ print(response.json())
 
 ### 問題2：quotes.toscrape.com にログインする
 
+`python/lesson19/02_quotes_login.py` に回答を書いてください。
+
 以下の手順でログイン処理を実装してください。
 
 ```
@@ -299,6 +303,8 @@ print(response.json())
 ---
 
 ### 問題3：ログイン後に複数ページを取得する
+
+`python/lesson19/03_login_multiple_pages.py` に回答を書いてください。
 
 問題2でログインした状態で、以下を実装してください。
 
@@ -327,6 +333,8 @@ print(response.json())
 ---
 
 ### 問題4：セッションにヘッダーを設定してログインする
+
+`python/lesson19/04_session_headers_delay.py` に回答を書いてください。
 
 問題2のログイン処理に以下を追加してください。
 

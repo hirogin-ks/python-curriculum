@@ -1,0 +1,42 @@
+# Python Webスクレイピングコース - 必要ライブラリ
+
+# HTTPリクエスト
+requests
+
+# HTML解析
+beautifulsoup4
+lxml
+
+# ブラウザ自動操作
+selenium
+webdriver-manager
+
+# 非同期処理
+aiohttp
+
+# データ処理
+pandas
+
+# データベース
+sqlalchemy
+
+# 日付処理
+python-dateutil
+
+# 環境変数
+python-dotenv
+
+# リトライ処理
+tenacity
+
+# スケジューラ
+schedule
+
+# テスト
+pytest
+
+# ログ
+loguru
+
+# プログレスバー
+tqdm

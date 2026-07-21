@@ -172,6 +172,8 @@ rating_number = rating_map.get(rating, 0)  # 3
 
 ### 問題1：基本的なデータ取得
 
+`python/lesson08/01_basic_data_fetch.py` に回答を書いてください。
+
 Books to Scrape のトップページから、最初の5冊の書籍について、以下の情報を辞書のリストにまとめてください。
 
 - タイトル
@@ -210,6 +212,8 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 ### 問題2：データの整形
 
+`python/lesson08/02_data_formatting.py` に回答を書いてください。
+
 問題1で取得したデータを、以下のように整形してください。
 
 - 価格：`"£51.77"` → `51.77`（数値）
@@ -239,6 +243,8 @@ rating_map = {
 
 ### 問題3：条件でフィルタリング
 
+`python/lesson08/03_filter_by_condition.py` に回答を書いてください。
+
 Books to Scrape から、評価が4以上の書籍のみを取得してください。
 
 ```python
@@ -253,6 +259,8 @@ Books to Scrape から、評価が4以上の書籍のみを取得してくださ
 ---
 
 ### 問題4：複数ページからデータ収集
+
+`python/lesson08/04_multi_page_collection.py` に回答を書いてください。
 
 Books to Scrape は複数ページに分かれています。最初の3ページから書籍情報を取得してください。
 
@@ -298,6 +306,8 @@ print(f"取得した書籍数: {len(all_books)}冊")
 ---
 
 ### 問題5：データをCSVファイルに保存（チャレンジ問題）
+
+`python/lesson08/05_save_to_csv_challenge.py` に回答を書いてください。
 
 > **この問題はオプションです。** CSVの保存方法は第10・11回で詳しく学びます。興味があればぜひ挑戦してみてください！
 

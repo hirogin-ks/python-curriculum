@@ -196,6 +196,8 @@ url = link.get("href")
 
 ### 問題1：基本的な取得
 
+`python/lesson06/01_basic_fetch.py` に回答を書いてください。
+
 以下のHTMLから、指定された要素を取得してください。
 
 ```python
@@ -230,6 +232,8 @@ soup = BeautifulSoup(html, "html.parser")
 ---
 
 ### 問題2：商品情報を取り出す
+
+`python/lesson06/02_extract_product_info.py` に回答を書いてください。
 
 以下のHTMLから、商品情報を辞書形式で取り出してください。
 
@@ -271,6 +275,8 @@ product = {
 ---
 
 ### 問題3：複数の商品を処理
+
+`python/lesson06/03_process_multiple_products.py` に回答を書いてください。
 
 以下のHTMLから、すべての商品を辞書のリストにしてください。
 
@@ -321,6 +327,8 @@ soup = BeautifulSoup(html, "html.parser")
 
 ### 問題4：リンクの一覧を取得
 
+`python/lesson06/04_get_link_list.py` に回答を書いてください。
+
 以下のHTMLから、すべてのリンクのURLとテキストを取得してください。
 
 ```python
@@ -355,6 +363,8 @@ soup = BeautifulSoup(html, "html.parser")
 ---
 
 ### 問題5：階層構造の処理
+
+`python/lesson06/05_nested_structure_processing.py` に回答を書いてください。
 
 以下のHTMLから、記事のタイトルと著者名を取得してください。
 

@@ -406,6 +406,8 @@ print(df_sorted)
 
 ### 問題1：基本的なCSV保存
 
+`python/lesson10/01_basic_csv_save.py` に回答を書いてください。
+
 > 第8回でチャレンジ問題として紹介したCSV保存を、ここで改めて基礎から丁寧に学びます。第8回ですでに解けた方はスキップしてOKです！
 
 以下のデータをCSVファイルに保存してください。
@@ -436,6 +438,8 @@ books = [
 
 ### 問題2：CSVを読み込んで分析
 
+`python/lesson10/02_csv_read_and_analyze.py` に回答を書いてください。
+
 問題1で作成した `books.csv` を読み込んで、以下を計算してください。
 
 1. 平均価格
@@ -451,6 +455,8 @@ books = [
 ---
 
 ### 問題3：JSON形式で保存
+
+`python/lesson10/03_save_json.py` に回答を書いてください。
 
 問題1のデータをJSON形式で保存してください。
 
@@ -478,6 +484,8 @@ books = [
 ---
 
 ### 問題4：階層構造のデータをJSON保存
+
+`python/lesson10/04_save_nested_json.py` に回答を書いてください。
 
 以下のような階層構造を持つデータをJSON形式で保存してください。
 
@@ -525,6 +533,8 @@ with open("users.json", "r", encoding="utf-8") as f:
 ---
 
 ### 問題5：スクレイピングデータをpandasで保存・分析
+
+`python/lesson10/05_pandas_save_analyze.py` に回答を書いてください。
 
 Books to Scrape から取得した以下のデータを、pandasを使ってCSVに保存し、分析してください。
 

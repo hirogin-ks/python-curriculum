@@ -251,6 +251,8 @@ with ThreadPoolExecutor(max_workers=3) as executor:
 
 ### 問題1：直列と並列の実行時間を比較する
 
+`python/lesson18/01_compare_serial_parallel.py` に回答を書いてください。
+
 以下の条件でプログラムを作成し、直列処理と並列処理の実行時間を計測してください。
 
 ```
@@ -281,6 +283,8 @@ with ThreadPoolExecutor(max_workers=3) as executor:
 ---
 
 ### 問題2：エラーが混在するURLを並列処理する
+
+`python/lesson18/02_parallel_error_handling.py` に回答を書いてください。
 
 以下のURLリストを並列で処理し、成功・失敗を区別して表示してください。
 
@@ -318,6 +322,8 @@ urls = [
 
 ### 問題3：as_completed で完了順に処理する
 
+`python/lesson18/03_as_completed_order.py` に回答を書いてください。
+
 `executor.submit` と `as_completed` を使って、完了した順番に結果を表示するプログラムを作成してください。
 
 ```python
@@ -353,6 +359,8 @@ urls = [f"https://example.com/{i}" for i in range(1, 6)]
 ---
 
 ### 問題4：tenacity と組み合わせる
+
+`python/lesson18/04_tenacity_parallel.py` に回答を書いてください。
 
 以下の条件でプログラムを作成してください。
 

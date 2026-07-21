@@ -181,6 +181,8 @@ for fruit in fruits:
 
 ### 問題1：リストの操作
 
+`python/lesson03/01_list_operations.py` に回答を書いてください。
+
 以下を順番に実行してください。
 
 1. `["Python", "Java", "JavaScript"]` というリストを作る
@@ -200,6 +202,8 @@ for fruit in fruits:
 ---
 
 ### 問題2：辞書の操作
+
+`python/lesson03/02_dict_operations.py` に回答を書いてください。
 
 以下の情報を辞書で表してください。
 
@@ -231,6 +235,8 @@ for fruit in fruits:
 
 ### 問題3：リストの中に辞書
 
+`python/lesson03/03_list_of_dicts.py` に回答を書いてください。
+
 複数の商品データをリストで管理してください。
 
 ```
@@ -253,6 +259,8 @@ for fruit in fruits:
 - 合計金額を計算するには、0で初期化した変数にループで金額を足していく
 
 ### 問題4：条件分岐
+
+`python/lesson03/04_conditionals.py` に回答を書いてください。
 
 BMIを計算して判定するプログラムを作ってください。
 
@@ -288,6 +296,8 @@ print(f"BMI: {bmi:.1f}")
 ---
 
 ### 問題5：ループで集計
+
+`python/lesson03/05_loop_aggregate.py` に回答を書いてください。
 
 以下のリストから、80点以上の人だけを表示してください。
 

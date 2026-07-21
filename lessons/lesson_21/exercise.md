@@ -192,6 +192,8 @@ logging.basicConfig(
 
 ### 問題1：schedule の基本を使ってみる
 
+`python/lesson21/01_schedule_basics.py` に回答を書いてください。
+
 以下の条件でスクリプトを作成してください（確認できたら Ctrl+C で止めて構いません）。
 
 ```
@@ -225,6 +227,8 @@ logging.basicConfig(
 
 ### 問題2：ハッシュを使って変更を検知する
 
+`python/lesson21/02_hash_change_detection.py` に回答を書いてください。
+
 以下の条件で変更検知関数を作成してください。
 
 ```
@@ -251,6 +255,8 @@ logging.basicConfig(
 ---
 
 ### 問題3：定期実行と変更検知を組み合わせる
+
+`python/lesson21/03_schedule_monitoring.py` に回答を書いてください。
 
 問題2の変更検知関数と `schedule` を組み合わせて、**30秒ごとにページの変更を確認するスクリプト** を作成してください。
 
@@ -286,6 +292,8 @@ logging.basicConfig(
 ---
 
 ### 問題4：変更箇所を差分で表示する
+
+`python/lesson21/04_diff_display.py` に回答を書いてください。
 
 ページの変更を検知したとき、何が変わったかをより詳しく表示してください。
 

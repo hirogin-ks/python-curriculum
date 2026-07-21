@@ -25,6 +25,8 @@
                      ↓
               main.py（全体制御・ログ）
                      ↓
+             config.py（設定値）
+                     ↓
          ┌───────────┴──────────┐
      jobs.csv               jobs.db
    （いつでも開ける）    （重複なし・検索可能）
@@ -111,6 +113,7 @@ lesson_24/
 ├── main.py         # エントリーポイント。全体の流れを制御する
 ├── scraper.py      # 取得・HTML解析処理。ネットワークに関わる処理を集める
 ├── database.py     # DB保存処理。データの永続化に関わる処理を集める
+├── config.py       # URLや保存先などの設定をまとめる
 └── output/
     ├── jobs.csv    # CSV出力ファイル
     ├── jobs.db     # SQLite データベース
@@ -121,6 +124,7 @@ lesson_24/
 
 - `scraper.py` だけをテストできる
 - DB を変えても `main.py` を修正しなくてよい
+- 設定値を `config.py` にまとめて変更しやすくできる
 - チームで作業を分担できる
 
 ### BeautifulSoup での複数要素取得
@@ -276,7 +280,7 @@ def insert_job(conn: sqlite3.Connection, job: dict) -> bool:
 
 ### 問題4：全機能を統合した JobScraper クラスを作る
 
-以下の設計で `scraper.py` と `main.py` を実装してください。
+以下の設計で `scraper.py`、`database.py`、`config.py`、`main.py` を実装してください。
 
 #### scraper.py
 
@@ -306,6 +310,13 @@ from scraper import JobScraper
 if __name__ == "__main__":
     scraper = JobScraper("https://realpython.github.io/fake-jobs/")
     scraper.run()
+```
+
+#### config.py
+
+```python
+URL = "https://realpython.github.io/fake-jobs/"
+OUTPUT_DIR = "output"
 ```
 
 実行結果の例：

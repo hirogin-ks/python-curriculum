@@ -197,6 +197,8 @@ Googleのクローラー（Googlebot）にはすべてのページへのアク�
 
 ### 問題1：robots.txt を読んでみよう
 
+`python/lesson01/01_read_robots_txt.py` に回答を書いてください。
+
 以下の robots.txt を見て、質問に答えてください。
 
 ```bash
@@ -237,6 +239,8 @@ Crawl-delay: 3
 
 ### 問題2：実際のサイトで確認してみよう
 
+`python/lesson01/02_check_real_sites.py` に回答を書いてください。
+
 以下のURLをブラウザで開いて、内容を確認してください。
 
 1. `https://www.google.com/robots.txt`
@@ -252,6 +256,8 @@ Crawl-delay: 3
 ---
 
 ### 問題3：この場合はどうする？
+
+`python/lesson01/03_when_in_doubt.py` に回答を書いてください。
 
 以下のシナリオについて、スクレイピングを行ってよいかどうか考えてください。
 

@@ -215,6 +215,8 @@ session.headers.update({
 
 ### 問題1：ヘッダーなしとありを比較する
 
+`python/lesson22/01_headers_compare.py` に回答を書いてください。
+
 以下のコードを完成させて、ヘッダーの有無でレスポンスがどう変わるかを確認してください。
 
 ```python
@@ -249,6 +251,8 @@ print(response_with_headers.json()["headers"].get("User-Agent"))
 ---
 
 ### 問題2：ランダム待機付きのスクレイパーを作る
+
+`python/lesson22/02_random_wait_scraper.py` に回答を書いてください。
 
 以下の条件を満たすスクレイパーを実装してください。
 
@@ -290,6 +294,8 @@ urls = [
 
 ### 問題3：robots.txt チェック付きのスクレイパーを作る
 
+`python/lesson22/03_robots_check.py` に回答を書いてください。
+
 アクセスする前に robots.txt を確認し、アクセスが許可されているURLのみ処理するスクレイパーを作成してください。
 
 ```
@@ -320,6 +326,8 @@ urls = [
 ---
 
 ### 問題4：問題2・3を組み合わせた礼儀正しいスクレイパーを作る
+
+`python/lesson22/04_polite_scraper.py` に回答を書いてください。
 
 以下の機能をすべて備えたスクレイパークラスを作成してください。
 
